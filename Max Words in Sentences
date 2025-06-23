@@ -1,0 +1,8 @@
+def mostWordsFound():
+    n = int(input("Enter the number of sentences: "))
+    sentences = [] 
+    for _ in range(n):
+        sentence = input("Enter a sentence: ")
+        sentences.append(sentence)    
+    return max(len(sentence.split()) for sentence in sentences)
+print("The maximum number of words in a sentence is:", mostWordsFound())
