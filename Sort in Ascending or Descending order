@@ -1,0 +1,10 @@
+names = []
+for _ in range(5):
+    names.append(input())
+order = input()
+if order == 'A':
+    names.sort()
+else:
+    names.sort(reverse=True)
+for name in names:
+    print(name)
