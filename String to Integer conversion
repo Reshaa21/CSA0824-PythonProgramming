@@ -1,0 +1,4 @@
+my_string = input("Enter a number: ")
+my_integer = int(my_string)
+print("String:", my_string)
+print("Integer:", my_integer)
