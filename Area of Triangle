@@ -1,0 +1,4 @@
+base=int(input('Enter base value: '))
+height=int(input('Enter height value: '))
+area=float(0.5*base*height)
+print('Area of triangle: ', area)
