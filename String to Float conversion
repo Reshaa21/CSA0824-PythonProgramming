@@ -1,0 +1,4 @@
+my_string = input("Enter a decimal number: ")
+my_float = float(my_string)
+print("String:", my_string)
+print("Float:", my_float)
