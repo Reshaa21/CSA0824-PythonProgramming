@@ -1,0 +1,3 @@
+n = float(input())
+print("Square Number:", n**2)
+print("Cube Number:", n**3)
