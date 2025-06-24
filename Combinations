@@ -1,0 +1,5 @@
+from itertools import permutations
+digits = input()
+combos = set(permutations(digits, 3))
+for combo in combos:
+    print(''.join(combo))
