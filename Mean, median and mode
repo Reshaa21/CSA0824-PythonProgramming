@@ -1,0 +1,5 @@
+from statistics import mean, median, mode
+nums = list(map(int, input().split()))
+print("Mean =", int(mean(nums)))
+print("Median =", int(median(nums)))
+print("Mode =", mode(nums))
